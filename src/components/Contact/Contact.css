@@ -1,0 +1,11 @@
+.contact-container {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-container {
+        padding: 32px;
+    }
+}

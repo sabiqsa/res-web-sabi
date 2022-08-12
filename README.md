@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Responsive Web by Sabi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Responsive Web.
 
-## Available Scripts
+```bash
+Feature
+* This App have three menu -> homepage, about and contact.
+* This App can update phone number.
+* This App is responsive view.
 
-In the project directory, you can run:
+Requirement
+* This app start from create react app.
+* This app using react-router v6.
+* Used Regex to validate phone only number
+* global state management using useContext.
+* dummy data.
+```
 
-### `npm start`
+# How to start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+* using npm
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install
+npm run start
 
-### `npm test`
+* using yarn
+yarn
+yarn start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+open http://localhost:3000/ on your browser.
+```
 
-### `npm run build`
+# Program running
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### halaman utama
+#### this page show home pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![tampilanutama](/images/homepage.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### halaman about
 
-### `npm run eject`
+#### this page show about components
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![about](/images/about-page.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### halaman contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### this page show contact components
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![contact](/images/contact-page.png)
 
-## Learn More
+#### condition, user can input phone number and click "go", the phone number will be changed.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![phone](/images/phone-change.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### condition, also page contact will be updated the number.  
 
-### Code Splitting
+![contact-updated](/images/contact-page-updated.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Testing using jest
 
-### Analyzing the Bundle Size
+```bash
+npm install jest
+npm run test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![test](/images/unit-test.png)

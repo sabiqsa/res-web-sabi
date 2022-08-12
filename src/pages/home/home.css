@@ -1,0 +1,50 @@
+.title-container {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    margin-top: 24px;
+}
+
+.phone-container {
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 16%;
+}
+
+.phone-container p {
+    text-align: center;
+}
+
+.phone-container input {
+   font-size: 16px;
+}
+
+.phone-container input {
+   font-size: 16px;
+   margin: 8px 0;
+}
+
+.phone-container button {
+   width: 24%;
+   font-size: 16px;
+   align-self: center;
+}
+
+.contact-wrapper {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .title-container {
+        font-size: 24px;
+    }
+    .contact-wrapper {
+        flex-direction: column;
+    }
+    .phone-container {
+        width: 40%;
+    }
+ 
+}
